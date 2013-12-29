@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Name=Tabata Timer
+Icon=harbor-tabatatimer
+Exec=TabataTimer
