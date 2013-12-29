@@ -29,12 +29,12 @@ var tick = function() {
 var toggleEnabled = function() {
     if(enabled) {
         startButton.text = "stop/reset"
-        lowIndicator.text = "ready"
+        lowIndicator.text = "get ready"
     }
     else {
         time = 0;
         round = 0;
         startButton.text = "start"
-        lowIndicator.text = "ready"
+        lowIndicator.text = "get ready"
     }
 }

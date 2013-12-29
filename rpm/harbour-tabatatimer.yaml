@@ -1,14 +1,14 @@
-Name: TabataTimer
+Name: harbour-tabatatimer
 Summary: Tabata Timer
-Version: 0.1
+Version: 0.1.0
 Release: 1
 Group: Qt/Qt
 URL: http://example.org/
 License: LICENSE
 Sources:
 - '%{name}-%{version}.tar.bz2'
-Description: |
-  Short description of my SailfishOS Application
+Description: |-
+  A simple tabata interval timer
 Configure: none
 Builder: qtc5
 PkgConfigBR:
@@ -21,10 +21,10 @@ Requires:
 Files:
 - /usr/share/icons/hicolor/86x86/apps
 - /usr/share/applications
-- /usr/share/TabataTimer
 - /usr/bin
 - '%{_datadir}/icons/hicolor/86x86/apps/%{name}.png'
 - '%{_datadir}/applications/%{name}.desktop'
 - '%{_datadir}/%{name}/qml'
 - '%{_bindir}'
 - /usr/share/harbour-tabatatimer
+PkgBR: []

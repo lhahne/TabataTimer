@@ -16,9 +16,9 @@ OTHER_FILES += \
     qml/cover/CoverPage.qml \
     qml/pages/FirstPage.qml \
     rpm/TabataTimer.spec \
-    rpm/TabataTimer.yaml \
     qml/pages/TabataTimerPage.qml \
     qml/pages/Timer.js \
     qml/harbour-tabatatimer.qml \
-    harbor-tabatatimer.desktop
+    harbour-tabatatimer.desktop \
+    rpm/harbour-tabatatimer.yaml
 
